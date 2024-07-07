@@ -3,8 +3,31 @@
 <head>
 	<meta charset="utf-8">
 	<title>calc</title>
+	<link rel="stylesheet" type="text/css" href="./styles.css">
 </head>
 <body>
-	
+	<div class="container">
+		<div class="app">
+			<div class="app__header">
+				<input class="input--display" id="app__input-first" type="number">
+				<input class="input--display" id="app__input-second" type="number">
+			</div>
+
+			<div class="app__main">
+				<button class="app--button button--color" id="app__action-clear">AC</button>
+				<button class="app--button" id="app__action-plus">+</button>
+				<button class="app--button" id="app__action-minus">-</button>
+			</div>
+
+			<div class="app__footer">
+				<div class="app__result-block">
+					<button class="app--button button--position button--position-eq" id="app__result">=</button>	
+				</div>
+				<div class="app__footer-result">
+					<span class="app__result-text">1230</span>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

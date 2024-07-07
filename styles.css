@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+	font-size: 50px;
+	color: white;
+	font-family: 'Rubik', sans-serif;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.app {
+	margin-top: 25%;
+
+}
+
+.app__header {
+	margin-bottom: 25px;
+}
+
+.app__main {
+
+}
+
+.input--display {
+	display: block;
+	margin: 0 auto;
+	font-size: 50px;
+	width: 400px;
+	height: 60px;
+	outline: none;
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	border-radius: 30px;
+	padding-left: 20px;
+	font-family: 'Rubik', sans-serif;
+}
+
+#app__input-first {
+	margin-bottom: 30px;
+}
+
+.app--button {
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	color: white;
+	font-size: 50px;
+	outline: none;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	font-family: 'Rubik', sans-serif;
+}
+
+.button--color {
+	background-color: gray;
+}
+
+.button--position {
+	margin-left: 38%;
+	margin-top: 12px;
+}
+
+.app__footer-result {
+	width: 400px;
+	height: 60px;
+	border: 1px solid white;
+	border-radius: 30px;
+	margin: 0 auto;
+}
+
+.button--position-eq {
+	margin-bottom: 20px;
+}
